@@ -3,11 +3,12 @@ window.onload = function() {
     showPopup();
 };
 
-function showPopup() {
-    var popup = document.getElementById("popup");
-    popup.style.display = popup.style.display === "none" ? "block" : "none";
+function showPopup(id) {
+    var popup = document.getElementById("popup" + id);
+    popup.style.display = "block";
 }
 
-function hidePopup() {
-    showPopup();
+function hidePopup(id) {
+    var popup = document.getElementById("popup" + id);
+    popup.style.display = "none";
 }
