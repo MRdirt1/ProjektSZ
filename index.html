@@ -1,13 +1,35 @@
-
 <!DOCTYPE html>
 <html>
 <head>
- <title>Nauka o sozologii</title>
- <link rel="stylesheet" type="text/css" href="style/style.css">
- <script src="script/script.js"></script>
+    <title>Nauka o sozologii</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <script src="script/script.js"></script>
 </head>
 <body>
-<img src="style/smietniki.jpg" class="smietniki" onmousedown="showPopup()" onmousehover="hidePopup()">
- <h1 id="popup">hey</h1>
+<img src="style/papier.jpg" class="smietniki" onclick="showPopup(0)">
+<img src="style/plastiki.jpg" class="smietniki" onclick="showPopup(1)">
+<img src="style/szkło.jpg" class="smietniki" onclick="showPopup(2)">
+<img src="style/organiczne.jpg" class="smietniki" onclick="showPopup(3)">
+
+<div id="popup0" class="popup">
+    <h1>Popup 1</h1>
+    <button onclick="hidePopup(0)">Close</button>
+</div>
+
+<div id="popup1" class="popup">
+    <h1>Popup 2</h1>
+    <button onclick="hidePopup(1)">Clsose</button>
+</div>
+
+<div id="popup2" class="popup">
+    <h1>Popup 3</h1>
+    <button onclick="hidePopup(2)">Clssose</button>
+</div>
+
+<div id="popup3" class="popup">
+    <h1>Popup 4</h1>
+    <button onclick="hidePopup(3)">Closde</button>
+</div>
+
 </body>
 </html>
