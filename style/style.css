@@ -1,0 +1,12 @@
+body {
+    font-family: sans-serif;
+  }
+
+  .smietniki {
+    display: flex;
+    width: 1110px;
+    object-position: 10%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
