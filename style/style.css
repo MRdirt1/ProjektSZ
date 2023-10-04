@@ -4,7 +4,7 @@ body {
 }
 
 .smietniki {
-  width: 450px;
+  width: 215px;
   display: inline-block;
   vertical-align: top;
   margin-right: 10px;
@@ -119,7 +119,7 @@ margin: 0;
   padding-left: 50%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   /* Dostosowanie strony do urządzeń mobilnych */
   body {
     font-size: 16px;
@@ -133,7 +133,7 @@ margin: 0;
   }
   
   .smietniki {
-    width: 225px;
+    width: 105px;
     display: inline-block;
     vertical-align: top;
     margin-right: 5px;
