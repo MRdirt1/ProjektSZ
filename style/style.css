@@ -107,6 +107,14 @@ margin: 0;
   cursor: pointer;
 }
 
+.glwnp{
+  color: #000000;
+  font-size: 80px;
+  position: absolute;
+  top: 8%; left: 53%;
+  transform: translate(-50%, -50%);
+}
+
 .tlo {
   padding-left: 50%;
 }
