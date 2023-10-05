@@ -132,7 +132,7 @@ margin: 0;
   transform: translate(-50%, -50%);
   background-color: rgb(45, 112, 255);
   width: 80%;
-  height: 10%;
+  height: 11%;
   background-size: cover;
 }
 .glwnp1{
@@ -143,8 +143,8 @@ margin: 0;
   left: 45%;
   transform: translate(-50%, -50%);
   background-color: rgb(45, 112, 255);
-  width: 39%;
-  height: 10%;
+  width: 43%;
+  height: 11%;
   background-size: cover;
 }
 
@@ -296,14 +296,22 @@ margin: 0;
     top: 16%; 
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: rgb(45, 112, 255);
+    width: 80%;
+    height: 11%;
+    background-size: cover;
   }
   .glwnp1{
     color: #000000;
     font-size: 80px;
     position: absolute;
-    top: 30%; 
-    left: 53%;
+    top: 30%;   
+    left: 45%;
     transform: translate(-50%, -50%);
+    background-color: rgb(45, 112, 255);
+    width: 43%;
+    height: 11%;
+    background-size: cover;
   }
 
 }
