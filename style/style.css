@@ -128,8 +128,24 @@ margin: 0;
   font-size: 80px;
   position: absolute;
   top: 16%; 
-  left: 53%;
+  left: 50%;
   transform: translate(-50%, -50%);
+  background-color: rgb(45, 112, 255);
+  width: 80%;
+  height: 10%;
+  background-size: cover;
+}
+.glwnp1{
+  color: #000000;
+  font-size: 80px;
+  position: absolute;
+  top: 30%;   
+  left: 45%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(45, 112, 255);
+  width: 39%;
+  height: 10%;
+  background-size: cover;
 }
 
 .tlo {
@@ -277,7 +293,16 @@ margin: 0;
     color: #000000;
     font-size: 80px;
     position: absolute;
-    top: 13%; left: 53%;
+    top: 16%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .glwnp1{
+    color: #000000;
+    font-size: 80px;
+    position: absolute;
+    top: 30%; 
+    left: 53%;
     transform: translate(-50%, -50%);
   }
 
