@@ -131,7 +131,7 @@ margin: 0;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgb(45, 112, 255);
-  width: 58%;
+  width: 57%;
   height: 9%;
   background-size: cover;
 }
@@ -141,7 +141,7 @@ margin: 0;
   position: absolute;
   top: 34%;   
   left: 45%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -120%);
   background-color: rgb(45, 112, 255);
   width: 33%;
   height: 8%;
